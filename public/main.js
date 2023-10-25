@@ -1,4 +1,4 @@
-let w = 60
+let w = 30
 let dots = []
 let rows
 let cols
@@ -8,7 +8,7 @@ class Dot {
         this.pos = createVector(x + (w/2), y + (w/2))
         this.r = 0
         this.min_r = 0 
-        this.max_r = 30
+        this.max_r = (w/3) * 2
         this.col = 'white'
     }
     
